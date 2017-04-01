@@ -1,3 +1,7 @@
+v1.0.0@limeandcoconut-fork -- 2017.4.1
+* Fork to allow for feature parity without node-gyp
+* Use microtime-nodejs instead of microtime
+
 v1.0.0  --  2015.06.24
 * Update dependencies
 * Drop support for node v0.8 ('^' in package.json dependencies)

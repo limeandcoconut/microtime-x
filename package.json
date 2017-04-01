@@ -1,8 +1,14 @@
 {
-  "name": "microtime-x",
+  "name": "@limeandcoconut/microtime-x",
   "version": "1.0.0",
-  "description": "Get current time in microseconds (cross-environment)",
+  "description": "Get current time in microseconds (cross-environment) without node-gyp",
   "author": "Mariusz Nowak <medyl@medikoo.com> (http://www.medikoo.com/)",
+  "contributors": [
+    {
+      "name": "Jacob Smith",
+      "email": "messagethesmith@gmail.com"
+    }
+  ],
   "keywords": [
     "time",
     "date",
@@ -11,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:medikoo/microtime-x.git"
+    "url": "git+ssh://git@github.com/limeandcoconut/microtime-x.git"
   },
   "optionalDependencies": {
-    "microtime": "2"
+    "microtime-nodejs": "^1.0.0"
   },
   "devDependencies": {
     "tad": "^0.2.2",
@@ -26,5 +32,16 @@
     "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
     "test": "node ./node_modules/tad/bin/tad"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limeandcoconut/microtime-x/issues"
+  },
+  "homepage": "https://github.com/limeandcoconut/microtime-x#readme",
+  "dependencies": {
+    "microtime-nodejs": "^1.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  }
 }
